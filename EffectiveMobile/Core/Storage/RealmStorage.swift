@@ -21,7 +21,6 @@ final class RealmStorage {
         tryRealm()
     }
     
-    
     // MARK: Internal
     private func tryRealm() -> Realm? {
         let configuration = Realm.Configuration(
